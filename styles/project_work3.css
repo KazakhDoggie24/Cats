@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: GilroyRegular, sans-serif;;
+    font-size: 23px;
+    background-image: url(https://purepng.com/public/uploads/large/purepng.com-catcatanimal-981524635157xq83y.png);
+    background-size: 31%;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+#topline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    height: 65px;
+    margin: auto;
+    background-color: rgb(137, 118, 88);
+    color: rgb(255, 184, 77);
+    padding: 40px 20px;
+    overflow-x: visible;
+}
+
+.topline_hover:hover {
+    color: rgb(255, 211, 144);
+}
+
+.topline_hover:active {
+    color: rgb(255, 184, 77);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(255, 184, 77);
+}
+
+#topline > div {
+    margin: 0px 20px;
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0px 80px;
+    font-weight: 700;
+}
+
+#image img {
+    width: 30px;
+}
+
+#search {
+    display: block;
+    width: 200px;
+    font-size: 15px;
+    border-radius: 6px;
+    margin: 0px 80px
+}
+
+#мейн {
+    width: auto;
+    height: auto;
+    margin: 100px auto 50px auto;
+}
+
+.main {
+    background-color: rgb(219, 200, 173);
+    max-width: 1000px;
+    width: 100%;
+    height: 100px;
+    margin: auto;
+}
+
+h2 {
+    text-align: start;
+    padding-top: 28px;
+    padding-left: 25px;
+    color: rgb(105, 95, 74);
+}
+
+#работай {
+    height: 115px;
+    border-top: 2px solid rgb(128, 100, 63);
+    padding: 20px 20px;
+}
+
+i {
+    font-size: 20px;
+    color: rgb(58, 49, 35);
+}
+
+.main2 {
+    max-width: 1000px;
+    width: 100%;
+    height: 500px;
+    margin: 50px auto;
+    background-color: rgb(219, 200, 173);
+    display: flex;
+    padding: 40px 50px;
+}
+
+.maintwo {
+    background-color:white;
+    width: 500px;
+    height: 400px;
+    margin: 10px 10px;
+    padding: 20px 20px;
+    font-size: 18px;
+}
+
+.block {
+    width: 320px;
+    height: 300px;
+    margin: 30px 38px;
+    background-image: url(https://media.makeameme.org/created/always-take-care.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#block2 {
+    background-image: url(https://d.newsweek.com/en/full/1974510/photo-bertie-cat-england.jpg?w=1600&h=1200&q=88&f=0df7d3049f0ce0b5aebd96bdd15e8636);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

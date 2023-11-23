@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: GilroyRegular, sans-serif;;
+    font-size: 23px;
+    background-image: url();
+    background-size: 31%;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+#topline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    height: 65px;
+    margin: auto;
+    background-color: rgb(137, 118, 88);
+    color: rgb(255, 184, 77);
+    padding: 40px 20px;
+    overflow-x: visible;
+}
+
+.topline_hover:hover {
+    color: rgb(255, 211, 144);
+}
+
+.topline_hover:active {
+    color: rgb(255, 184, 77);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(255, 184, 77);
+}
+
+#topline > div {
+    margin: 0px 20px;
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0px 80px;
+    font-weight: 700;
+}
+
+#image img {
+    width: 30px;
+}
+
+#search {
+    display: block;
+    width: 200px;
+    font-size: 15px;
+    border-radius: 6px;
+    margin: 0px 80px
+}
+
+#main {
+    width: auto;
+    height: 310px;
+    background-image: url("https://lapkins.ru/upload/resize_cache/iblock/341/1024_500_2/1soypvyh0pfiwqljarkjofvor9r6pn0d.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main_text {
+    margin: auto;
+    width: 500px;
+    height: 50px;
+    padding: 125px;
+}
+
+#main_text > h2 {
+    text-align: center;
+    color: white;
+}
+
+#main2 {
+    background-color: rgb(219, 200, 173);
+    margin: 0px auto 50px auto;
+    padding-top: 20px;
+    padding-bottom: 55px;
+    width: 1000px;
+    height: auto;
+}
+
+.text {
+    width: 750px;
+    height: 70px;
+    margin: 50px auto 0px auto;
+}
+
+.text > h3 {
+    text-align: center;
+    margin: auto;
+    color:rgb(105, 95, 74);
+}
+
+.image {
+    width: 750px;
+    height: 450px;
+    margin: 50px auto 0px auto;
+    padding: 5px;
+    background-color: white;
+}
+
+.image1 {
+    width: 450px;
+    height: 350px;
+    margin: 50px auto 0px auto;
+    background-image: url("https://i.chzbgr.com/full/8987527168/h2BB4A28E/start-the-revolution");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texty {
+    width: 750px;
+    height: auto;
+    margin: 50px auto 0px auto;
+    font-size: 18px;
+    color: rgb(58, 49, 35);
+    padding: 10px;
+}
+
+#image2 {
+    background-image: url("https://i.pinimg.com/736x/83/32/89/833289821a44447291a9e47ae0ba1448--coffee-humor-coffee-coffee.jpg");
+}
+
+#image3 {
+    background-image: url("https://i.pinimg.com/originals/b5/f3/81/b5f3810221b701a63e5a964c59a44e0e.jpg");
+}

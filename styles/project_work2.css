@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: GilroyRegular, sans-serif;;
+    font-size: 23px;
+    background-image: url(https://pngimg.com/d/cat_PNG50426.png);
+    background-size: 31%;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+#topline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    height: 65px;
+    margin: auto;
+    background-color: rgb(137, 118, 88);
+    color: rgb(255, 184, 77);
+    padding: 40px 20px;
+    overflow-x: visible;
+}
+
+.topline_hover:hover {
+    color: rgb(255, 211, 144);
+}
+
+.topline_hover:active {
+    color: rgb(255, 184, 77);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(255, 184, 77);
+}
+
+#topline > div {
+    margin: 0px 20px;
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0px 80px;
+    font-weight: 700;
+}
+
+#image img {
+    width: 30px;
+}
+
+#search {
+    display: block;
+    width: 200px;
+    font-size: 15px;
+    border-radius: 6px;
+    margin: 0px 80px
+}
+
+#wrapper {
+    background-color: rgb(185, 159, 119);
+    overflow-y: auto;
+    width: 100%;
+    max-width: 1200px;
+    height: 1000px;
+    margin: 100px auto;
+    border-radius: 20px;
+}
+
+h2 {
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: rgb(105, 95, 74);
+}
+
+p {
+    padding: 0px 50px;
+    margin: 30px;
+    text-align: center;
+    font-size: 19px;
+    color: rgb(58, 49, 35);
+}
+
+#derjat {
+    padding: 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px 110px 30px 110px;
+    height: auto;
+}
+
+.cats {
+    background-color: white;
+    width: 285px;
+    height: 300px;
+    margin: 25px 10px 120px 10px;
+}
+
+#cat1 {
+    background-image: url(https://storage-api.petstory.ru/resize/0x0x70/b4/ef/ec/b4efecb0e72346f2955bb10eaba704c1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cat2 {
+    background-image: url(https://zooset.ru/upload/thumbs/breed/default/mejjn-kun_59b93e.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cat3 {
+    background-image: url(https://storage-api.petstory.ru/resize/0x0x70/c2/b8/6c/c2b86c7b1a0c4ce78286d1322051c80a.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cat4 {
+    background-image: url(https://www.catstep.ru/upload/iblock/76b/76bb21df67230809c5d8909cc81f9930.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cat5 {
+    background-image: url(https://i.pinimg.com/originals/4c/36/40/4c36404847164617a118f8f328ffb815.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cat6 {
+    background-image: url(https://koshka.top/uploads/posts/2021-11/1636724098_2-koshka-top-p-koshki-yegipetskii-sfinks-koshka-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cat7 {
+    background-image: url(https://gamerwall.pro/uploads/posts/2022-09/1662445884_2-gamerwall-pro-p-bengalskaya-leopardovaya-koshka-vkontakte-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cat8 {
+    background-image: url(https://fello.pet/wp-content/uploads/2020/12/skottish-fold_3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cat9 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/0a/Kamee01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cat10 {
+    background-image: url(https://pesyk.kiev.ua/wp-content/uploads/Koshka-regdoll-14.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cat11 {
+    background-image: url(https://multipet.ru/images/image2breed/b3/135200eb-telo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cat12 {
+    background-image: url(https://prokotov.com/wp-content/uploads/2017/10/images_sibirskaya-koshka.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text {
+    margin-top: 340px;
+    color: rgb(58, 49, 35);
+    font-weight: 700;
+}
+
+.text:hover {
+    color: rgb(129, 119, 104);
+}

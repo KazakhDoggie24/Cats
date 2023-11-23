@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: GilroyRegular, sans-serif;;
+    font-size: 23px;
+    background-image: url();
+    background-size: 31%;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+#topline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    height: 65px;
+    margin: auto;
+    background-color: rgb(137, 118, 88);
+    color: rgb(255, 184, 77);
+    padding: 40px 20px;
+    overflow-x: visible;
+}
+
+.topline_hover:hover {
+    color: rgb(255, 211, 144);
+}
+
+.topline_hover:active {
+    color: rgb(255, 184, 77);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(255, 184, 77);
+}
+
+#topline > div {
+    margin: 0px 20px;
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0px 80px;
+    font-weight: 700;
+}
+
+#image img {
+    width: 30px;
+}
+
+#search {
+    display: block;
+    width: 200px;
+    font-size: 15px;
+    border-radius: 6px;
+    margin: 0px 80px
+}
+
+#main {
+    width: 1400px;
+    height: auto;
+    margin: 100px auto;
+    margin-bottom: 50px;
+}
+
+.main1 {
+    background-color: white;
+    width: auto;
+    height: 250px;
+    margin: auto;
+}
+
+#color {
+    background: rgb(185, 159, 119);
+    height: 300px;
+    display: flex;
+}
+
+#h_one {
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    padding: 110px 0px;
+    width: 400px;
+    height: 100px;
+    text-align: start;
+}
+
+#kontanti {
+    color: rgb(58, 49, 35);
+    font-size: 16px;
+    width: 700px;
+    margin-left: 100px;
+    height: 299px;
+    padding: 58px 10px 0px 0px;
+}

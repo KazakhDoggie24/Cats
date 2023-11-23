@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: GilroyRegular, sans-serif;;
+    font-size: 23px;
+    background-image: url(https://www.freepnglogos.com/uploads/cat-png/cat-boarding-24.png);
+    background-size: 82%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#topline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    height: 65px;
+    margin: auto;
+    background-color: rgb(137, 118, 88);
+    color: rgb(255, 184, 77);
+    padding: 40px 20px;
+    overflow-x: visible;
+}
+
+.topline_hover:hover {
+    color: rgb(255, 211, 144);
+}
+
+.topline_hover:active {
+    color: rgb(255, 184, 77);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(255, 184, 77);
+}
+
+#topline > div {
+    margin: 0px 20px;
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0px 80px;
+    font-weight: 700;
+}
+
+#image img {
+    width: 30px;
+}
+
+#search {
+    display: block;
+    width: 200px;
+    font-size: 15px;
+    border-radius: 6px;
+    margin: 0px 80px
+}
+
+#цитата {
+    width: 550px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 150px auto 10px 150px;
+    padding: 15px;
+    font-size: 18px;
+    outline: 1px solid rgb(255, 255, 255);
+    background-color: rgba(188, 165, 106, 0.592);
+    color: white;
+}
+
+#цитата:hover {
+    color: black;
+}
+
+#main {
+    max-width: 1200px;
+    height: auto;
+    margin: 180px auto 85px auto;
+    padding: 20px;
+    background-color: rgb(185, 159, 119);
+    color: rgb(58, 49, 35);
+}
+
+#main > div {
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    color: rgb(105, 95, 74);
+}
+
+#lol {
+    background: rgb(220, 205, 185);
+    width: auto;
+    height: 500px;
+    margin: auto;
+    padding: auto;
+}
+
+#fun {
+    text-align: center;
+    margin: auto;
+    padding-top: 32px;
+    width: 400px;
+    height: auto;
+}
+
+h3 {
+    color: rgb(133, 115, 93);
+}
+
+.video-container {
+    margin: 30px auto 10px auto;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 660px;
+    height: auto;
+}
+
+video {
+    width: 600px;
+    height: auto;
+}
+
+#main2 {
+    width: 1000px;
+    height: auto;
+    margin: 0px auto 35px auto;
+    padding: 35px;
+}
+
+#h_two {
+    text-align: center;
+    color: rgb(105, 95, 74);;
+}
+
+#derjat {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.tema {
+    background-color: white;
+    width: 400px;
+    height: 350px;
+    margin: 0px 15px 0px 15px;
+    text-align: center;
+    align-items: center;
+    font-size: 17.5px;
+    flex-wrap: wrap;
+}
+
+#img_block1 {
+    width: 400px;
+    height: 150px;
+    background: white url("https://www.supersadovnik.ru/binfiles/images/20221219/b024fed9.jpg") center no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+#img_block2 {
+    width: 400px;
+    height: 150px;
+    background: white url("https://www.proplan.ru/sites/owners.proplan.ru/files/2022-11/cat1920.jpg") center no-repeat;
+    opacity: 0.89;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.tema > a {
+    font-size: 25px;
+    color: brown;
+    text-decoration: none;
+}
